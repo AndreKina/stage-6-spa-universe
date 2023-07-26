@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script type="module" src="./src/main.js" defer></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Universe</title>
+  </head>
+  <body>
+    <div class="app">
+      <nav>
+        <ul>
+          <li>
+            <a href="/" onclick="route()"
+              ><img
+                class="universe-logo"
+                src="./assets/images/Vector.svg"
+                alt="Logo de um universo"
+            /></a>
+          </li>
+          <li>
+            <a href="/home" onclick="route()">Home</a>
+          </li>
+          <li>
+            <a href="/universe" onclick="route()">O Universo</a>
+          </li>
+          <li>
+            <a href="/explore" onclick="route()">Exploração</a>
+          </li>
+        </ul>
+      </nav>
+
+      <main></main>
+    </div>
+  </body>
+</html>
